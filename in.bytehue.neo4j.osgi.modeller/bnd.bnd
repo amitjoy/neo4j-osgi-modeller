@@ -1,0 +1,2 @@
+Bundle-Name                    : Neo4j OSGi Modeller
+Bundle-Description             : This bundle provides functionality to prepare Neo4j Graph from the OSGi runtime
