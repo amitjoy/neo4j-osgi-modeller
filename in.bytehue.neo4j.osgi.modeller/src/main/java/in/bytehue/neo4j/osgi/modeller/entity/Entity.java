@@ -1,9 +1,16 @@
-package in.bytehue.neo4j.osgi.modeller.dto;
+package in.bytehue.neo4j.osgi.modeller.entity;
 
 import java.lang.reflect.Field;
 import java.util.StringJoiner;
 
-public abstract class DTO {
+import org.neo4j.ogm.annotation.GeneratedValue;
+import org.neo4j.ogm.annotation.Id;
+
+public abstract class Entity {
+
+    @Id
+    @GeneratedValue
+    private Long id;
 
     /**
      * Return a string representation of this DTO suitable for use when debugging.
