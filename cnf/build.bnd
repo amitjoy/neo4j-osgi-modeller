@@ -13,8 +13,8 @@ Bundle-Developers                     =         amit.kumar.mondal; \
                                                    name="Amit Kumar Mondal"; \
                                                    organization="Deutsche Telekom AG"
 Bundle-SCM                            =         url=https://github.com/amitjoy/osgi-messaging.git, \
-                                                connection=scm:git:https://github.com/amitjoy/osgi-messaging.git, \
-                                                developerConnection=scm:git:git@github.com:amitjoy/osgi-messaging.git
+                                                connection=scm:git:https://github.com/amitjoy/neo4j-osgi-modeller.git, \
+                                                developerConnection=scm:git:git@github.com:amitjoy/neo4j-osgi-modeller.git
 
 javac.source                          =         1.8
 javac.target                          =         ${javac.source}
