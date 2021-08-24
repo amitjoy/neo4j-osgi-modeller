@@ -6,10 +6,6 @@ Bundle-Description             : This bundle provides functionality to prepare N
 	org.neo4j:neo4j-ogm-api;packages=*,\
 	org.neo4j:neo4j-ogm-core;packages=*,\
 
--privatepackage                : \
-	in.bytehue.*,\
-	org.neo4j.*,\
-	*.classgraph.*
-
+-privatepackage                : in.bytehue.*, org.neo4j.*, *.classgraph.*
 -includeresource.neo4j.ogm     : @${repo;org.neo4j:neo4j-ogm-core}!/META-INF/*
 -fixupmessages.private.refs    : 'private references' 
