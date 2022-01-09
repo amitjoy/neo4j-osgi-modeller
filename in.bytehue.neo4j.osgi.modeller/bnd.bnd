@@ -2,10 +2,13 @@ Bundle-Name                    : Neo4j OSGi Modeller
 Bundle-Description             : This bundle provides functionality to prepare Neo4j Graph from the OSGi runtime
 
 -buildpath                     : \
-	io.github.classgraph.classgraph,\
-	org.neo4j:neo4j-ogm-api;packages=*,\
-	org.neo4j:neo4j-ogm-core;packages=*,\
+                                 io.github.classgraph.classgraph,\
+                                 org.neo4j:neo4j-ogm-api;packages=*,\
+                                 org.neo4j:neo4j-ogm-core;packages=*,\
 
--privatepackage                : in.bytehue.*, org.neo4j.*, *.classgraph.*
+-privatepackage                : \
+                                 in.bytehue.*,\
+                                 org.neo4j.*,\
+                                 *.classgraph.*
 -includeresource.neo4j.ogm     : @${repo;org.neo4j:neo4j-ogm-core}!/META-INF/*
 -fixupmessages.private.refs    : 'private references' 
